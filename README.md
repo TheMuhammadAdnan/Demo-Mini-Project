@@ -7,7 +7,11 @@
 * python version: `3.11.4`
 1. Inside the repository folder, activate virtual environment: `source venv/bin/activate`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run server: `uvicorn app.main:app --reload --host 0.0.0.0 --port 8000`
+3. Create .env file in root folder of project and add the following variables:
+    * SHOPIFY_ACCESS_TOKEN="{shopify_access_token}"
+    * SHOPIFY_SHOP_URL="{Shop_NAME}.myshopify.com"
+
+4. Run server: `uvicorn app.main:app --reload --host 0.0.0.0 --port 8000`
 
  **Through docker-compose**
 1. Inside the repository folder, build an image of service: `sudo docker build -t demo-mini-project .`
