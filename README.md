@@ -19,3 +19,5 @@ Use the provided base URL and extend it with the specific endpoint URL to make A
 
 **Env variables**
 * APP_NAME=`demo-mini-project`
+* SHOPIFY_ACCESS_TOKEN="{shopify_access_token}"
+* SHOPIFY_SHOP_URL="{Shop_NAME}.myshopify.com"
