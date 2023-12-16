@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/demo-mini-project/api/v1/orders/2669175815",
+					"raw": "http://127.0.0.1:8000/demo-mini-project/api/v1/orders/2669175815?status=any",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -27,6 +27,12 @@
 						"v1",
 						"orders",
 						"2669175815"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "any"
+						}
 					]
 				}
 			},
