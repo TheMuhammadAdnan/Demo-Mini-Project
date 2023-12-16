@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "e0068a7a-1632-4ea4-8bf6-6210327aabaa",
+		"name": "Demo Mini Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4043542"
+	},
+	"item": [
+		{
+			"name": "Get Orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/demo-mini-project/api/v1/orders/2669175815",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"demo-mini-project",
+						"api",
+						"v1",
+						"orders",
+						"2669175815"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Health Status check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/demo-mini-project/api/v1/health/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"demo-mini-project",
+						"api",
+						"v1",
+						"health",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

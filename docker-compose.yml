@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  DemoMiniProject:
+    image: demo-mini-project:latest
+    container_name: demo-mini-project
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+
+    environment:
+      - APP_NAME=demo-mini-project
+      - SHOPIFY_ACCESS_TOKEN="{SHOPIFY_ACCESS_TOKEN}"
+      - SHOPIFY_SHOP_URL="{ShopName}.myshopify.com"
+
+#    ports:
+#      - "8000:8000"
+
+
+    network_mode: 'host'
