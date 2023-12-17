@@ -122,7 +122,7 @@ The project follows a clean and organized structure for ease of understanding an
 
 5. Run the server:
    ```bash
-   uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+   uvicorn main:app --reload --host 0.0.0.0 --port 8000
    ```
 
 ### Through Docker-Compose

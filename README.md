@@ -28,7 +28,7 @@ This is the README for the Demo Mini Project, a FastAPI application integrated w
 
 5. Run the server:
    ```bash
-   uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+   uvicorn main:app --reload --host 0.0.0.0 --port 8000
    ```
 
 ### Through Docker-Compose
